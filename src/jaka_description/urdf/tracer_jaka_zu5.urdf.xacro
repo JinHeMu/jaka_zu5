@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+
+<robot name="tracer_jaka_zu5"
+    xmlns:xacro="http://ros.org/wiki/xacro">
+
+    
+  <xacro:include filename="$(find tracer_description)/urdf/tracer_v1.xacro" />   
+  <xacro:include filename="$(find aluminium)/urdf/aluminium.xacro" />
+  <xacro:include filename="$(find aluminium)/urdf/aluminium_2.xacro" />
+  <xacro:include filename="$(find aluminium)/urdf/aluminium_3.xacro" />
+  <xacro:include filename="$(find aluminium)/urdf/aluminium_4.xacro" />
+  <xacro:include filename="$(find second_base)/urdf/second_base.xacro" />
+  <xacro:include filename="$(find jaka_description)/urdf/jaka_zu5.urdf.xacro" />  
+  <xacro:include filename="$(find realsense2_description)/urdf/_d435.urdf.xacro" />
+  <xacro:include filename="$(find connector_description)/urdf/robotiq_realsense2_connector.urdf.xacro" />
+  <xacro:include filename="$(find robotiq_description)/urdf/robotiq_85_gripper.urdf.xacro" /> 
+
+
+  <link name="robotiq_coupler">
+    <visual>
+      <geometry>
+        <mesh filename="package://robotiq_description/meshes/robotiq_85_coupler.stl" />
+      </geometry>
+      <!--material
+      name="flat_black"/-->
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://robotiq_description/meshes/robotiq_85_coupler.stl" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="2.073e-05   1.45286e-03  -1.1049e-03" rpy="0 0 0" />
+      <mass value="0.168" />
+      <inertia ixx="6.69695624e-05" ixy="5.21511788e-09" ixz="-2.74383009e-08"
+        iyy="7.85088161e-05" iyz="5.41105193e-07" izz="1.41819717e-04" />
+    </inertial>
+  </link>
+
+
+  <!-- JOINT -->
+
+  <joint name="tracer_aluminium" type="fixed">
+    <origin xyz="-0.142 0.115 0.016 " rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="aluminium_base_link" />
+  </joint>
+
+  <joint name="tracer_aluminium_2" type="fixed">
+    <origin xyz="-0.142 -0.115 0.016 " rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="aluminium_2_base_link" />
+  </joint>
+
+  <joint name="tracer_aluminium_3" type="fixed">
+    <origin xyz="0.145 0.115 0.016 " rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="aluminium_3_base_link" />
+  </joint>
+
+  <joint name="tracer_aluminium_4" type="fixed">
+    <origin xyz="0.145 -0.115 0.016 " rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="aluminium_4_base_link" />
+  </joint>
+
+  <joint name="tracer_base" type="fixed">
+    <origin xyz="0.03 0 0.218 " rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="urbase_base_link" />
+  </joint>
+
+  <joint name="base_to_jaka" type="fixed">
+      <parent link="base_link"/>
+      <child link="jaka_base_link"/>
+      <origin xyz="0 0 0.218" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="robotiq_coupler_joint" type="fixed">
+    <origin xyz="0 0 0 " rpy="0 0 -0.7853981634" />
+    <parent link="Link_6" />
+    <child link="robotiq_coupler" />
+  </joint>
+
+
+  <!-- 手抓宏调用 -->
+  <xacro:robotiq_85_gripper parent="robotiq_coupler" prefix="">
+
+    <origin xyz="0 0 0.005" rpy="0 -1.57 1.57" />
+    <!-- <origin xyz="0 0 0" rpy="0 -1.57 0" /> -->
+  </xacro:robotiq_85_gripper>
+
+  <!-- 相机宏调用 此处修改name是避免和标定得到的矩阵冲突-->
+  <xacro:sensor_d435 parent="to_d435_link" name="camera_1">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </xacro:sensor_d435>
+
+  <!-- 连接件宏调用 -->
+  <xacro:robotiq_realsense2_connector prefix="" parent="robotiq_85_base_link">
+    <origin xyz="0.0365 0 0.028" rpy="0 0 0" />
+  </xacro:robotiq_realsense2_connector>
+  
+</robot>

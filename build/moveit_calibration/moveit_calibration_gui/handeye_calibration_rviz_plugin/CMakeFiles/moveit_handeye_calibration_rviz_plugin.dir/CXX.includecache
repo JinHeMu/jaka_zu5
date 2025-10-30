@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ras/jhm_ws/build/moveit_calibration/moveit_calibration_gui/handeye_calibration_rviz_plugin/moveit_handeye_calibration_rviz_plugin_autogen/mocs_compilation.cpp
+
