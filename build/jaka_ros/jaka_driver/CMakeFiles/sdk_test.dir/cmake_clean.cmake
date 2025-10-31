@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ras/jhm_ws/devel/lib/jaka_driver/sdk_test"
-  "/home/ras/jhm_ws/devel/lib/jaka_driver/sdk_test.pdb"
+  "/home/a/jaka_zu5/devel/lib/jaka_driver/sdk_test"
+  "/home/a/jaka_zu5/devel/lib/jaka_driver/sdk_test.pdb"
   "CMakeFiles/sdk_test.dir/src/sdk_test.cpp.o"
 )
 

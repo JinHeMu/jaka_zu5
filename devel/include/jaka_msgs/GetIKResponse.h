@@ -193,12 +193,23 @@ struct Printer< ::jaka_msgs::GetIKResponse_<ContainerAllocator> >
 {
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::jaka_msgs::GetIKResponse_<ContainerAllocator>& v)
   {
-    s << indent << "joint[]" << std::endl;
+    if (false || !indent.empty())
+      s << std::endl;
+    s << indent << "joint: ";
+    if (v.joint.empty() || true)
+      s << "[";
     for (size_t i = 0; i < v.joint.size(); ++i)
     {
-      s << indent << "  joint[" << i << "]: ";
-      Printer<float>::stream(s, indent + "  ", v.joint[i]);
+      if (true && i > 0)
+        s << ", ";
+      else if (!true)
+        s << std::endl << indent << "  -";
+      Printer<float>::stream(s, true ? std::string() : indent + "    ", v.joint[i]);
     }
+    if (v.joint.empty() || true)
+      s << "]";
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "message: ";
     Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.message);
   }

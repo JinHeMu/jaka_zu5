@@ -43,110 +43,110 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ras/jhm_ws/src
+CMAKE_SOURCE_DIR = /home/a/jaka_zu5/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ras/jhm_ws/build
+CMAKE_BINARY_DIR = /home/a/jaka_zu5/build
 
 # Utility rule file for jaka_msgs_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs.dir/progress.make
 
-jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/msg/RobotMsg.js
-jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/Move.js
-jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/ServoMoveEnable.js
-jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/ServoMove.js
-jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetTcpFrame.js
-jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetUserFrame.js
-jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetPayload.js
-jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetCollision.js
-jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetIO.js
-jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/GetIO.js
-jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/ClearError.js
-jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/GetFK.js
-jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/GetIK.js
+jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/msg/RobotMsg.js
+jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/Move.js
+jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/ServoMoveEnable.js
+jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/ServoMove.js
+jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetTcpFrame.js
+jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetUserFrame.js
+jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetPayload.js
+jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetCollision.js
+jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetIO.js
+jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/GetIO.js
+jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/ClearError.js
+jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/GetFK.js
+jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/GetIK.js
 
 
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/msg/RobotMsg.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/msg/RobotMsg.js: /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ras/jhm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from jaka_msgs/RobotMsg.msg"
-	cd /home/ras/jhm_ws/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg -Ijaka_msgs:/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/msg
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/msg/RobotMsg.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/msg/RobotMsg.js: /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/a/jaka_zu5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from jaka_msgs/RobotMsg.msg"
+	cd /home/a/jaka_zu5/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg -Ijaka_msgs:/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/msg
 
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/Move.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/Move.js: /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/Move.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ras/jhm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from jaka_msgs/Move.srv"
-	cd /home/ras/jhm_ws/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/Move.srv -Ijaka_msgs:/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/Move.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/Move.js: /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/Move.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/a/jaka_zu5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from jaka_msgs/Move.srv"
+	cd /home/a/jaka_zu5/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/Move.srv -Ijaka_msgs:/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv
 
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/ServoMoveEnable.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/ServoMoveEnable.js: /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ras/jhm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from jaka_msgs/ServoMoveEnable.srv"
-	cd /home/ras/jhm_ws/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv -Ijaka_msgs:/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/ServoMoveEnable.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/ServoMoveEnable.js: /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/a/jaka_zu5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from jaka_msgs/ServoMoveEnable.srv"
+	cd /home/a/jaka_zu5/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv -Ijaka_msgs:/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv
 
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/ServoMove.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/ServoMove.js: /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMove.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ras/jhm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from jaka_msgs/ServoMove.srv"
-	cd /home/ras/jhm_ws/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMove.srv -Ijaka_msgs:/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/ServoMove.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/ServoMove.js: /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMove.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/a/jaka_zu5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from jaka_msgs/ServoMove.srv"
+	cd /home/a/jaka_zu5/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMove.srv -Ijaka_msgs:/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv
 
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetTcpFrame.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetTcpFrame.js: /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ras/jhm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from jaka_msgs/SetTcpFrame.srv"
-	cd /home/ras/jhm_ws/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv -Ijaka_msgs:/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetTcpFrame.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetTcpFrame.js: /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/a/jaka_zu5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from jaka_msgs/SetTcpFrame.srv"
+	cd /home/a/jaka_zu5/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv -Ijaka_msgs:/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv
 
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetUserFrame.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetUserFrame.js: /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ras/jhm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from jaka_msgs/SetUserFrame.srv"
-	cd /home/ras/jhm_ws/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv -Ijaka_msgs:/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetUserFrame.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetUserFrame.js: /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/a/jaka_zu5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from jaka_msgs/SetUserFrame.srv"
+	cd /home/a/jaka_zu5/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv -Ijaka_msgs:/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv
 
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetPayload.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetPayload.js: /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetPayload.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ras/jhm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from jaka_msgs/SetPayload.srv"
-	cd /home/ras/jhm_ws/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetPayload.srv -Ijaka_msgs:/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetPayload.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetPayload.js: /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetPayload.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/a/jaka_zu5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from jaka_msgs/SetPayload.srv"
+	cd /home/a/jaka_zu5/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetPayload.srv -Ijaka_msgs:/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv
 
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetCollision.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetCollision.js: /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetCollision.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ras/jhm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from jaka_msgs/SetCollision.srv"
-	cd /home/ras/jhm_ws/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetCollision.srv -Ijaka_msgs:/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetCollision.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetCollision.js: /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetCollision.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/a/jaka_zu5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from jaka_msgs/SetCollision.srv"
+	cd /home/a/jaka_zu5/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetCollision.srv -Ijaka_msgs:/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv
 
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetIO.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetIO.js: /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetIO.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ras/jhm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from jaka_msgs/SetIO.srv"
-	cd /home/ras/jhm_ws/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetIO.srv -Ijaka_msgs:/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetIO.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetIO.js: /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetIO.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/a/jaka_zu5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from jaka_msgs/SetIO.srv"
+	cd /home/a/jaka_zu5/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetIO.srv -Ijaka_msgs:/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv
 
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/GetIO.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/GetIO.js: /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIO.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ras/jhm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from jaka_msgs/GetIO.srv"
-	cd /home/ras/jhm_ws/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIO.srv -Ijaka_msgs:/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/GetIO.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/GetIO.js: /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIO.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/a/jaka_zu5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from jaka_msgs/GetIO.srv"
+	cd /home/a/jaka_zu5/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIO.srv -Ijaka_msgs:/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv
 
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/ClearError.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/ClearError.js: /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ClearError.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ras/jhm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from jaka_msgs/ClearError.srv"
-	cd /home/ras/jhm_ws/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ClearError.srv -Ijaka_msgs:/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/ClearError.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/ClearError.js: /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ClearError.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/a/jaka_zu5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Javascript code from jaka_msgs/ClearError.srv"
+	cd /home/a/jaka_zu5/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ClearError.srv -Ijaka_msgs:/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv
 
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/GetFK.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/GetFK.js: /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetFK.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ras/jhm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from jaka_msgs/GetFK.srv"
-	cd /home/ras/jhm_ws/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetFK.srv -Ijaka_msgs:/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/GetFK.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/GetFK.js: /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetFK.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/a/jaka_zu5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from jaka_msgs/GetFK.srv"
+	cd /home/a/jaka_zu5/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetFK.srv -Ijaka_msgs:/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv
 
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/GetIK.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/GetIK.js: /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIK.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ras/jhm_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from jaka_msgs/GetIK.srv"
-	cd /home/ras/jhm_ws/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIK.srv -Ijaka_msgs:/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/GetIK.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/GetIK.js: /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIK.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/a/jaka_zu5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from jaka_msgs/GetIK.srv"
+	cd /home/a/jaka_zu5/build/jaka_ros/jaka_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIK.srv -Ijaka_msgs:/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p jaka_msgs -o /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv
 
 jaka_msgs_generate_messages_nodejs: jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs
-jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/msg/RobotMsg.js
-jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/Move.js
-jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/ServoMoveEnable.js
-jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/ServoMove.js
-jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetTcpFrame.js
-jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetUserFrame.js
-jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetPayload.js
-jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetCollision.js
-jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/SetIO.js
-jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/GetIO.js
-jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/ClearError.js
-jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/GetFK.js
-jaka_msgs_generate_messages_nodejs: /home/ras/jhm_ws/devel/share/gennodejs/ros/jaka_msgs/srv/GetIK.js
+jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/msg/RobotMsg.js
+jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/Move.js
+jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/ServoMoveEnable.js
+jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/ServoMove.js
+jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetTcpFrame.js
+jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetUserFrame.js
+jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetPayload.js
+jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetCollision.js
+jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/SetIO.js
+jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/GetIO.js
+jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/ClearError.js
+jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/GetFK.js
+jaka_msgs_generate_messages_nodejs: /home/a/jaka_zu5/devel/share/gennodejs/ros/jaka_msgs/srv/GetIK.js
 jaka_msgs_generate_messages_nodejs: jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs.dir/build.make
 
 .PHONY : jaka_msgs_generate_messages_nodejs
@@ -157,10 +157,10 @@ jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs.dir/build: jaka
 .PHONY : jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs.dir/build
 
 jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/ras/jhm_ws/build/jaka_ros/jaka_msgs && $(CMAKE_COMMAND) -P CMakeFiles/jaka_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/a/jaka_zu5/build/jaka_ros/jaka_msgs && $(CMAKE_COMMAND) -P CMakeFiles/jaka_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs.dir/clean
 
 jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/ras/jhm_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ras/jhm_ws/src /home/ras/jhm_ws/src/jaka_ros/jaka_msgs /home/ras/jhm_ws/build /home/ras/jhm_ws/build/jaka_ros/jaka_msgs /home/ras/jhm_ws/build/jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/a/jaka_zu5/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/a/jaka_zu5/src /home/a/jaka_zu5/src/jaka_ros/jaka_msgs /home/a/jaka_zu5/build /home/a/jaka_zu5/build/jaka_ros/jaka_msgs /home/a/jaka_zu5/build/jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : jaka_ros/jaka_msgs/CMakeFiles/jaka_msgs_generate_messages_nodejs.dir/depend
 

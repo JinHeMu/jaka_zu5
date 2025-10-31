@@ -185,12 +185,21 @@ struct Printer< ::jaka_msgs::GetFKRequest_<ContainerAllocator> >
 {
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::jaka_msgs::GetFKRequest_<ContainerAllocator>& v)
   {
-    s << indent << "joint[]" << std::endl;
+    if (false || !indent.empty())
+      s << std::endl;
+    s << indent << "joint: ";
+    if (v.joint.empty() || true)
+      s << "[";
     for (size_t i = 0; i < v.joint.size(); ++i)
     {
-      s << indent << "  joint[" << i << "]: ";
-      Printer<float>::stream(s, indent + "  ", v.joint[i]);
+      if (true && i > 0)
+        s << ", ";
+      else if (!true)
+        s << std::endl << indent << "  -";
+      Printer<float>::stream(s, true ? std::string() : indent + "    ", v.joint[i]);
     }
+    if (v.joint.empty() || true)
+      s << "]";
   }
 };
 

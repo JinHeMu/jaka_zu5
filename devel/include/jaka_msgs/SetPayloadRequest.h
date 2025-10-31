@@ -217,14 +217,24 @@ struct Printer< ::jaka_msgs::SetPayloadRequest_<ContainerAllocator> >
 {
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::jaka_msgs::SetPayloadRequest_<ContainerAllocator>& v)
   {
+    if (false || !indent.empty())
+      s << std::endl;
     s << indent << "tool_num: ";
     Printer<int16_t>::stream(s, indent + "  ", v.tool_num);
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "mass: ";
     Printer<float>::stream(s, indent + "  ", v.mass);
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "xc: ";
     Printer<float>::stream(s, indent + "  ", v.xc);
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "yc: ";
     Printer<float>::stream(s, indent + "  ", v.yc);
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "zc: ";
     Printer<float>::stream(s, indent + "  ", v.zc);
   }

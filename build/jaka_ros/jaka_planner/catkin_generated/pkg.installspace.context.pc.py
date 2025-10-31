@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "roscpp;rospy;std_msgs;jaka_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "jaka_planner"
-PROJECT_SPACE_DIR = "/home/ras/jhm_ws/install"
+PROJECT_SPACE_DIR = "/home/a/jaka_zu5/install"
 PROJECT_VERSION = "0.0.0"

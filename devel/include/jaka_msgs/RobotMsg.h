@@ -208,12 +208,20 @@ struct Printer< ::jaka_msgs::RobotMsg_<ContainerAllocator> >
 {
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::jaka_msgs::RobotMsg_<ContainerAllocator>& v)
   {
+    if (false || !indent.empty())
+      s << std::endl;
     s << indent << "motion_state: ";
     Printer<int16_t>::stream(s, indent + "  ", v.motion_state);
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "power_state: ";
     Printer<int16_t>::stream(s, indent + "  ", v.power_state);
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "servo_state: ";
     Printer<int16_t>::stream(s, indent + "  ", v.servo_state);
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "collision_state: ";
     Printer<int16_t>::stream(s, indent + "  ", v.collision_state);
   }

@@ -193,8 +193,12 @@ struct Printer< ::jaka_msgs::SetCollisionRequest_<ContainerAllocator> >
 {
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::jaka_msgs::SetCollisionRequest_<ContainerAllocator>& v)
   {
+    if (false || !indent.empty())
+      s << std::endl;
     s << indent << "is_enable: ";
     Printer<uint8_t>::stream(s, indent + "  ", v.is_enable);
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "value: ";
     Printer<int16_t>::stream(s, indent + "  ", v.value);
   }

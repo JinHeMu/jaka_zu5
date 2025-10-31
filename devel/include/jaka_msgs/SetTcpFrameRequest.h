@@ -193,12 +193,23 @@ struct Printer< ::jaka_msgs::SetTcpFrameRequest_<ContainerAllocator> >
 {
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::jaka_msgs::SetTcpFrameRequest_<ContainerAllocator>& v)
   {
-    s << indent << "pose[]" << std::endl;
+    if (false || !indent.empty())
+      s << std::endl;
+    s << indent << "pose: ";
+    if (v.pose.empty() || true)
+      s << "[";
     for (size_t i = 0; i < v.pose.size(); ++i)
     {
-      s << indent << "  pose[" << i << "]: ";
-      Printer<float>::stream(s, indent + "  ", v.pose[i]);
+      if (true && i > 0)
+        s << ", ";
+      else if (!true)
+        s << std::endl << indent << "  -";
+      Printer<float>::stream(s, true ? std::string() : indent + "    ", v.pose[i]);
     }
+    if (v.pose.empty() || true)
+      s << "]";
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "tool_num: ";
     Printer<int16_t>::stream(s, indent + "  ", v.tool_num);
   }

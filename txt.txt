@@ -1,12 +1,28 @@
-[ WARN] [1761880691.424629173]: Reprojection error:
-0.0106469 m, 0.060253 rad
-[ INFO] [1761880691.424709867]: Publish camera transformation
-  0.930652 -0.0404174   0.363667  -0.432141
- 0.0578034    0.99764 -0.0370473    13.6628
- -0.361311  0.0554993   0.930792   0.570606
-         0          0          0          1
-from eef frame 'robotiq_85_base_link'to sensor frame 'camera_link'
-[ INFO] [1761880692.366403936]: Set target real dimensions: 
-board_size_meters 0.280000
+
 marker_size_meters 0.030000
 
+[ WARN] [1761885493.333875528]: Reprojection error:
+0.0101274 m, 0.0051277 rad
+[ INFO] [1761885493.333963190]: Publish camera transformation
+   0.999935   0.0100293 -0.00547896   0.0292013
+ -0.0100795    0.999907 -0.00920593   0.0166407
+ 0.00538612  0.00926055    0.999943   0.0816136
+          0           0           0           1
+from eef frame 'robotiq_85_base_link'to sensor frame 'camera_link'
+[ INFO] [1761885494.693386329]: Set target real dimensions:
+
+[ WARN] [1761885316.042099774]: Reprojection error:
+0.00883314 m, 0.00399636 rad
+[ INFO] [1761885316.042164519]: Publish camera transformation
+   0.999907   0.0115691 -0.00728045   0.0272444
+ -0.0114391    0.999779   0.0176516   0.0171443
+ 0.00748305  -0.0175666    0.999818   0.0822473
+          0           0           0           1
+
+[ WARN] [1761885068.322817835]: Reprojection error:
+0.011851 m, 0.00547718 rad
+[ INFO] [1761885068.322890396]: Publish camera transformation
+   0.999932   0.0109242 -0.00402889   0.0235591
+ -0.0108429    0.999747   0.0196854   0.0168618
+ 0.00424292  -0.0196404    0.999798   0.0840892
+          0           0           0           1

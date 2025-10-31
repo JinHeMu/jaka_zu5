@@ -193,18 +193,36 @@ struct Printer< ::jaka_msgs::GetIKRequest_<ContainerAllocator> >
 {
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::jaka_msgs::GetIKRequest_<ContainerAllocator>& v)
   {
-    s << indent << "ref_joint[]" << std::endl;
+    if (false || !indent.empty())
+      s << std::endl;
+    s << indent << "ref_joint: ";
+    if (v.ref_joint.empty() || true)
+      s << "[";
     for (size_t i = 0; i < v.ref_joint.size(); ++i)
     {
-      s << indent << "  ref_joint[" << i << "]: ";
-      Printer<float>::stream(s, indent + "  ", v.ref_joint[i]);
+      if (true && i > 0)
+        s << ", ";
+      else if (!true)
+        s << std::endl << indent << "  -";
+      Printer<float>::stream(s, true ? std::string() : indent + "    ", v.ref_joint[i]);
     }
-    s << indent << "cartesian_pose[]" << std::endl;
+    if (v.ref_joint.empty() || true)
+      s << "]";
+    if (true || !indent.empty())
+      s << std::endl;
+    s << indent << "cartesian_pose: ";
+    if (v.cartesian_pose.empty() || true)
+      s << "[";
     for (size_t i = 0; i < v.cartesian_pose.size(); ++i)
     {
-      s << indent << "  cartesian_pose[" << i << "]: ";
-      Printer<float>::stream(s, indent + "  ", v.cartesian_pose[i]);
+      if (true && i > 0)
+        s << ", ";
+      else if (!true)
+        s << std::endl << indent << "  -";
+      Printer<float>::stream(s, true ? std::string() : indent + "    ", v.cartesian_pose[i]);
     }
+    if (v.cartesian_pose.empty() || true)
+      s << "]";
   }
 };
 

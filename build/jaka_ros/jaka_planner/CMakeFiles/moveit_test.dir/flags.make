@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"jaka_planner\"
 
-CXX_INCLUDES = -I/home/ras/jhm_ws/src/jaka_ros/jaka_planner/include -I/home/ras/jhm_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/bullet 
+CXX_INCLUDES = -I/home/a/jaka_zu5/src/jaka_ros/jaka_planner/include -I/home/a/jaka_zu5/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/bullet 
 

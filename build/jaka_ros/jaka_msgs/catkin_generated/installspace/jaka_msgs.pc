@@ -1,4 +1,4 @@
-prefix=/home/ras/jhm_ws/install
+prefix=/home/a/jaka_zu5/install
 
 Name: jaka_msgs
 Description: Description of jaka_msgs

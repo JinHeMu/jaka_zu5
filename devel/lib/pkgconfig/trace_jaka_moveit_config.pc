@@ -1,4 +1,4 @@
-prefix=/home/ras/jhm_ws/devel
+prefix=/home/a/jaka_zu5/devel
 
 Name: trace_jaka_moveit_config
 Description: Description of trace_jaka_moveit_config

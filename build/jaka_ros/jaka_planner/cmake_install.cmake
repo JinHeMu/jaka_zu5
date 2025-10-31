@@ -1,8 +1,8 @@
-# Install script for directory: /home/ras/jhm_ws/src/jaka_ros/jaka_planner
+# Install script for directory: /home/a/jaka_zu5/src/jaka_ros/jaka_planner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ras/jhm_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/a/jaka_zu5/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ras/jhm_ws/build/jaka_ros/jaka_planner/catkin_generated/installspace/jaka_planner.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/a/jaka_zu5/build/jaka_ros/jaka_planner/catkin_generated/installspace/jaka_planner.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jaka_planner/cmake" TYPE FILE FILES
-    "/home/ras/jhm_ws/build/jaka_ros/jaka_planner/catkin_generated/installspace/jaka_plannerConfig.cmake"
-    "/home/ras/jhm_ws/build/jaka_ros/jaka_planner/catkin_generated/installspace/jaka_plannerConfig-version.cmake"
+    "/home/a/jaka_zu5/build/jaka_ros/jaka_planner/catkin_generated/installspace/jaka_plannerConfig.cmake"
+    "/home/a/jaka_zu5/build/jaka_ros/jaka_planner/catkin_generated/installspace/jaka_plannerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jaka_planner" TYPE FILE FILES "/home/ras/jhm_ws/src/jaka_ros/jaka_planner/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/jaka_planner" TYPE FILE FILES "/home/a/jaka_zu5/src/jaka_ros/jaka_planner/package.xml")
 endif()
 

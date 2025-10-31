@@ -1,8 +1,8 @@
-# Install script for directory: /home/ras/jhm_ws/src/jaka_ros/tracer_jaka_description/second_base
+# Install script for directory: /home/a/jaka_zu5/src/jaka_ros/tracer_jaka_description/second_base
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ras/jhm_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/a/jaka_zu5/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,33 +38,33 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ras/jhm_ws/build/jaka_ros/tracer_jaka_description/second_base/catkin_generated/installspace/second_base.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/a/jaka_zu5/build/jaka_ros/tracer_jaka_description/second_base/catkin_generated/installspace/second_base.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/second_base/cmake" TYPE FILE FILES
-    "/home/ras/jhm_ws/build/jaka_ros/tracer_jaka_description/second_base/catkin_generated/installspace/second_baseConfig.cmake"
-    "/home/ras/jhm_ws/build/jaka_ros/tracer_jaka_description/second_base/catkin_generated/installspace/second_baseConfig-version.cmake"
+    "/home/a/jaka_zu5/build/jaka_ros/tracer_jaka_description/second_base/catkin_generated/installspace/second_baseConfig.cmake"
+    "/home/a/jaka_zu5/build/jaka_ros/tracer_jaka_description/second_base/catkin_generated/installspace/second_baseConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/second_base" TYPE FILE FILES "/home/ras/jhm_ws/src/jaka_ros/tracer_jaka_description/second_base/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/second_base" TYPE FILE FILES "/home/a/jaka_zu5/src/jaka_ros/tracer_jaka_description/second_base/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/second_base/config" TYPE DIRECTORY FILES "/home/ras/jhm_ws/src/jaka_ros/tracer_jaka_description/second_base/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/second_base/config" TYPE DIRECTORY FILES "/home/a/jaka_zu5/src/jaka_ros/tracer_jaka_description/second_base/config/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/second_base/launch" TYPE DIRECTORY FILES "/home/ras/jhm_ws/src/jaka_ros/tracer_jaka_description/second_base/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/second_base/launch" TYPE DIRECTORY FILES "/home/a/jaka_zu5/src/jaka_ros/tracer_jaka_description/second_base/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/second_base/meshes" TYPE DIRECTORY FILES "/home/ras/jhm_ws/src/jaka_ros/tracer_jaka_description/second_base/meshes/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/second_base/meshes" TYPE DIRECTORY FILES "/home/a/jaka_zu5/src/jaka_ros/tracer_jaka_description/second_base/meshes/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/second_base/urdf" TYPE DIRECTORY FILES "/home/ras/jhm_ws/src/jaka_ros/tracer_jaka_description/second_base/urdf/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/second_base/urdf" TYPE DIRECTORY FILES "/home/a/jaka_zu5/src/jaka_ros/tracer_jaka_description/second_base/urdf/")
 endif()
 

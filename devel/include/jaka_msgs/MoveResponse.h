@@ -193,8 +193,12 @@ struct Printer< ::jaka_msgs::MoveResponse_<ContainerAllocator> >
 {
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::jaka_msgs::MoveResponse_<ContainerAllocator>& v)
   {
+    if (false || !indent.empty())
+      s << std::endl;
     s << indent << "ret: ";
     Printer<int16_t>::stream(s, indent + "  ", v.ret);
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "message: ";
     Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.message);
   }

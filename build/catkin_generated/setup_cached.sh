@@ -7,7 +7,11 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ras/jhm_ws/devel:$CMAKE_PREFIX_PATH"
-export PWD='/home/ras/jhm_ws/build'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/ras/jhm_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/ras/jhm_ws/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/a/jaka_zu5/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/a/jaka_zu5/devel/lib:$LD_LIBRARY_PATH"
+export PATH='/opt/ros/noetic/bin:/home/a/.nvm/versions/node/v20.19.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+export PKG_CONFIG_PATH="/home/a/jaka_zu5/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/a/jaka_zu5/build'
+export PYTHONPATH="/home/a/jaka_zu5/devel/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES='/home/a/jaka_zu5/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/a/jaka_zu5/src:$ROS_PACKAGE_PATH"

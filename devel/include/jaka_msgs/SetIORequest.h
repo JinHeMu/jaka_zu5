@@ -209,12 +209,20 @@ struct Printer< ::jaka_msgs::SetIORequest_<ContainerAllocator> >
 {
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::jaka_msgs::SetIORequest_<ContainerAllocator>& v)
   {
+    if (false || !indent.empty())
+      s << std::endl;
     s << indent << "signal: ";
     Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.signal);
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "type: ";
     Printer<int16_t>::stream(s, indent + "  ", v.type);
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "index: ";
     Printer<int16_t>::stream(s, indent + "  ", v.index);
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "value: ";
     Printer<float>::stream(s, indent + "  ", v.value);
   }

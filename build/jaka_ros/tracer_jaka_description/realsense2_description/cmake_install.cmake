@@ -1,8 +1,8 @@
-# Install script for directory: /home/ras/jhm_ws/src/jaka_ros/tracer_jaka_description/realsense2_description
+# Install script for directory: /home/a/jaka_zu5/src/jaka_ros/tracer_jaka_description/realsense2_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ras/jhm_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/a/jaka_zu5/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,26 +38,26 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ras/jhm_ws/build/jaka_ros/tracer_jaka_description/realsense2_description/catkin_generated/installspace/realsense2_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/a/jaka_zu5/build/jaka_ros/tracer_jaka_description/realsense2_description/catkin_generated/installspace/realsense2_description.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense2_description/cmake" TYPE FILE FILES
-    "/home/ras/jhm_ws/build/jaka_ros/tracer_jaka_description/realsense2_description/catkin_generated/installspace/realsense2_descriptionConfig.cmake"
-    "/home/ras/jhm_ws/build/jaka_ros/tracer_jaka_description/realsense2_description/catkin_generated/installspace/realsense2_descriptionConfig-version.cmake"
+    "/home/a/jaka_zu5/build/jaka_ros/tracer_jaka_description/realsense2_description/catkin_generated/installspace/realsense2_descriptionConfig.cmake"
+    "/home/a/jaka_zu5/build/jaka_ros/tracer_jaka_description/realsense2_description/catkin_generated/installspace/realsense2_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense2_description" TYPE FILE FILES "/home/ras/jhm_ws/src/jaka_ros/tracer_jaka_description/realsense2_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense2_description" TYPE FILE FILES "/home/a/jaka_zu5/src/jaka_ros/tracer_jaka_description/realsense2_description/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense2_description" TYPE DIRECTORY FILES
-    "/home/ras/jhm_ws/src/jaka_ros/tracer_jaka_description/realsense2_description/launch"
-    "/home/ras/jhm_ws/src/jaka_ros/tracer_jaka_description/realsense2_description/meshes"
-    "/home/ras/jhm_ws/src/jaka_ros/tracer_jaka_description/realsense2_description/rviz"
-    "/home/ras/jhm_ws/src/jaka_ros/tracer_jaka_description/realsense2_description/urdf"
+    "/home/a/jaka_zu5/src/jaka_ros/tracer_jaka_description/realsense2_description/launch"
+    "/home/a/jaka_zu5/src/jaka_ros/tracer_jaka_description/realsense2_description/meshes"
+    "/home/a/jaka_zu5/src/jaka_ros/tracer_jaka_description/realsense2_description/rviz"
+    "/home/a/jaka_zu5/src/jaka_ros/tracer_jaka_description/realsense2_description/urdf"
     )
 endif()
 

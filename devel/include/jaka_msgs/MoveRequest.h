@@ -249,30 +249,62 @@ struct Printer< ::jaka_msgs::MoveRequest_<ContainerAllocator> >
 {
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::jaka_msgs::MoveRequest_<ContainerAllocator>& v)
   {
-    s << indent << "pose[]" << std::endl;
+    if (false || !indent.empty())
+      s << std::endl;
+    s << indent << "pose: ";
+    if (v.pose.empty() || true)
+      s << "[";
     for (size_t i = 0; i < v.pose.size(); ++i)
     {
-      s << indent << "  pose[" << i << "]: ";
-      Printer<float>::stream(s, indent + "  ", v.pose[i]);
+      if (true && i > 0)
+        s << ", ";
+      else if (!true)
+        s << std::endl << indent << "  -";
+      Printer<float>::stream(s, true ? std::string() : indent + "    ", v.pose[i]);
     }
+    if (v.pose.empty() || true)
+      s << "]";
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "has_ref: ";
     Printer<uint8_t>::stream(s, indent + "  ", v.has_ref);
-    s << indent << "ref_joint[]" << std::endl;
+    if (true || !indent.empty())
+      s << std::endl;
+    s << indent << "ref_joint: ";
+    if (v.ref_joint.empty() || true)
+      s << "[";
     for (size_t i = 0; i < v.ref_joint.size(); ++i)
     {
-      s << indent << "  ref_joint[" << i << "]: ";
-      Printer<float>::stream(s, indent + "  ", v.ref_joint[i]);
+      if (true && i > 0)
+        s << ", ";
+      else if (!true)
+        s << std::endl << indent << "  -";
+      Printer<float>::stream(s, true ? std::string() : indent + "    ", v.ref_joint[i]);
     }
+    if (v.ref_joint.empty() || true)
+      s << "]";
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "mvvelo: ";
     Printer<float>::stream(s, indent + "  ", v.mvvelo);
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "mvacc: ";
     Printer<float>::stream(s, indent + "  ", v.mvacc);
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "mvtime: ";
     Printer<float>::stream(s, indent + "  ", v.mvtime);
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "mvradii: ";
     Printer<float>::stream(s, indent + "  ", v.mvradii);
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "coord_mode: ";
     Printer<int16_t>::stream(s, indent + "  ", v.coord_mode);
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "index: ";
     Printer<int16_t>::stream(s, indent + "  ", v.index);
   }

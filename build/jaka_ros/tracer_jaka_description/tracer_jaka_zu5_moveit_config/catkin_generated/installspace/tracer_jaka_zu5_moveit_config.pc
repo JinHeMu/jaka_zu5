@@ -1,4 +1,4 @@
-prefix=/home/ras/jhm_ws/install
+prefix=/home/a/jaka_zu5/install
 
 Name: tracer_jaka_zu5_moveit_config
 Description: Description of tracer_jaka_zu5_moveit_config

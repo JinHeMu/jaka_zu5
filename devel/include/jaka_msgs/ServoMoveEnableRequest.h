@@ -185,6 +185,8 @@ struct Printer< ::jaka_msgs::ServoMoveEnableRequest_<ContainerAllocator> >
 {
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::jaka_msgs::ServoMoveEnableRequest_<ContainerAllocator>& v)
   {
+    if (false || !indent.empty())
+      s << std::endl;
     s << indent << "enable: ";
     Printer<uint8_t>::stream(s, indent + "  ", v.enable);
   }

@@ -1,4 +1,4 @@
-prefix=/home/ras/jhm_ws/devel
+prefix=/home/a/jaka_zu5/devel
 
 Name: jaka_description
 Description: Description of jaka_description

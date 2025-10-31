@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_driver/src/servoj_demo.cpp" "/home/ras/jhm_ws/build/jaka_ros/jaka_driver/CMakeFiles/servoj_demo.dir/src/servoj_demo.cpp.o"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_driver/src/servoj_demo.cpp" "/home/a/jaka_zu5/build/jaka_ros/jaka_driver/CMakeFiles/servoj_demo.dir/src/servoj_demo.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_driver/include"
-  "/home/ras/jhm_ws/devel/include"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_driver/include"
+  "/home/a/jaka_zu5/devel/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

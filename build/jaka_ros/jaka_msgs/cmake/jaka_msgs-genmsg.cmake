@@ -2,7 +2,7 @@
 
 message(STATUS "jaka_msgs: 1 messages, 12 services")
 
-set(MSG_I_FLAGS "-Ijaka_msgs:/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ijaka_msgs:/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,69 +17,69 @@ add_custom_target(jaka_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg" NAME_WE)
 add_custom_target(_jaka_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg" ""
 )
 
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/Move.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/Move.srv" NAME_WE)
 add_custom_target(_jaka_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/Move.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/Move.srv" ""
 )
 
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv" NAME_WE)
 add_custom_target(_jaka_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv" ""
 )
 
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMove.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMove.srv" NAME_WE)
 add_custom_target(_jaka_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMove.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMove.srv" ""
 )
 
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv" NAME_WE)
 add_custom_target(_jaka_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv" ""
 )
 
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv" NAME_WE)
 add_custom_target(_jaka_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv" ""
 )
 
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetPayload.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetPayload.srv" NAME_WE)
 add_custom_target(_jaka_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetPayload.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetPayload.srv" ""
 )
 
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetCollision.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetCollision.srv" NAME_WE)
 add_custom_target(_jaka_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetCollision.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetCollision.srv" ""
 )
 
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetIO.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetIO.srv" NAME_WE)
 add_custom_target(_jaka_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetIO.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetIO.srv" ""
 )
 
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIO.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIO.srv" NAME_WE)
 add_custom_target(_jaka_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIO.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIO.srv" ""
 )
 
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ClearError.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ClearError.srv" NAME_WE)
 add_custom_target(_jaka_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ClearError.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ClearError.srv" ""
 )
 
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetFK.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetFK.srv" NAME_WE)
 add_custom_target(_jaka_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetFK.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetFK.srv" ""
 )
 
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIK.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIK.srv" NAME_WE)
 add_custom_target(_jaka_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIK.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "jaka_msgs" "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIK.srv" ""
 )
 
 #
@@ -89,7 +89,7 @@ add_custom_target(_jaka_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/jaka_msgs
@@ -97,73 +97,73 @@ _generate_msg_cpp(jaka_msgs
 
 ### Generating Services
 _generate_srv_cpp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/Move.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/Move.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_cpp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_cpp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMove.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMove.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_cpp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_cpp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_cpp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetPayload.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetPayload.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_cpp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetCollision.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetCollision.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_cpp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetIO.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetIO.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_cpp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIO.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIO.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_cpp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ClearError.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ClearError.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_cpp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetFK.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetFK.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_cpp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIK.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIK.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/jaka_msgs
@@ -181,31 +181,31 @@ add_custom_target(jaka_msgs_generate_messages_cpp
 add_dependencies(jaka_msgs_generate_messages jaka_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_cpp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/Move.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/Move.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_cpp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_cpp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMove.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMove.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_cpp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_cpp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_cpp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetPayload.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetPayload.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_cpp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetCollision.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetCollision.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_cpp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetIO.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetIO.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_cpp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIO.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIO.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_cpp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ClearError.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ClearError.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_cpp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetFK.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetFK.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_cpp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIK.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIK.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_cpp _jaka_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -218,7 +218,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS jaka_msgs_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/jaka_msgs
@@ -226,73 +226,73 @@ _generate_msg_eus(jaka_msgs
 
 ### Generating Services
 _generate_srv_eus(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/Move.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/Move.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_eus(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_eus(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMove.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMove.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_eus(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_eus(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_eus(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetPayload.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetPayload.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_eus(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetCollision.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetCollision.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_eus(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetIO.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetIO.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_eus(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIO.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIO.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_eus(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ClearError.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ClearError.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_eus(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetFK.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetFK.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_eus(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIK.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIK.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/jaka_msgs
@@ -310,31 +310,31 @@ add_custom_target(jaka_msgs_generate_messages_eus
 add_dependencies(jaka_msgs_generate_messages jaka_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_eus _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/Move.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/Move.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_eus _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_eus _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMove.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMove.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_eus _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_eus _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_eus _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetPayload.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetPayload.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_eus _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetCollision.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetCollision.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_eus _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetIO.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetIO.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_eus _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIO.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIO.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_eus _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ClearError.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ClearError.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_eus _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetFK.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetFK.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_eus _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIK.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIK.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_eus _jaka_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -347,7 +347,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS jaka_msgs_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/jaka_msgs
@@ -355,73 +355,73 @@ _generate_msg_lisp(jaka_msgs
 
 ### Generating Services
 _generate_srv_lisp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/Move.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/Move.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_lisp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_lisp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMove.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMove.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_lisp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_lisp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_lisp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetPayload.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetPayload.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_lisp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetCollision.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetCollision.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_lisp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetIO.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetIO.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_lisp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIO.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIO.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_lisp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ClearError.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ClearError.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_lisp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetFK.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetFK.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_lisp(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIK.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIK.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/jaka_msgs
@@ -439,31 +439,31 @@ add_custom_target(jaka_msgs_generate_messages_lisp
 add_dependencies(jaka_msgs_generate_messages jaka_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_lisp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/Move.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/Move.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_lisp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_lisp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMove.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMove.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_lisp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_lisp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_lisp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetPayload.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetPayload.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_lisp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetCollision.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetCollision.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_lisp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetIO.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetIO.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_lisp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIO.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIO.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_lisp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ClearError.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ClearError.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_lisp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetFK.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetFK.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_lisp _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIK.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIK.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_lisp _jaka_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -476,7 +476,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS jaka_msgs_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/jaka_msgs
@@ -484,73 +484,73 @@ _generate_msg_nodejs(jaka_msgs
 
 ### Generating Services
 _generate_srv_nodejs(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/Move.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/Move.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_nodejs(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_nodejs(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMove.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMove.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_nodejs(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_nodejs(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_nodejs(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetPayload.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetPayload.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_nodejs(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetCollision.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetCollision.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_nodejs(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetIO.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetIO.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_nodejs(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIO.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIO.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_nodejs(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ClearError.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ClearError.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_nodejs(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetFK.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetFK.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_nodejs(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIK.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIK.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/jaka_msgs
@@ -568,31 +568,31 @@ add_custom_target(jaka_msgs_generate_messages_nodejs
 add_dependencies(jaka_msgs_generate_messages jaka_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_nodejs _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/Move.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/Move.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_nodejs _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_nodejs _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMove.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMove.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_nodejs _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_nodejs _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_nodejs _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetPayload.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetPayload.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_nodejs _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetCollision.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetCollision.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_nodejs _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetIO.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetIO.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_nodejs _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIO.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIO.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_nodejs _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ClearError.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ClearError.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_nodejs _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetFK.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetFK.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_nodejs _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIK.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIK.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_nodejs _jaka_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -605,7 +605,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS jaka_msgs_generate_messages_nodejs)
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/jaka_msgs
@@ -613,73 +613,73 @@ _generate_msg_py(jaka_msgs
 
 ### Generating Services
 _generate_srv_py(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/Move.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/Move.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_py(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_py(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMove.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMove.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_py(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_py(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_py(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetPayload.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetPayload.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_py(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetCollision.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetCollision.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_py(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetIO.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetIO.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_py(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIO.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIO.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_py(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ClearError.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ClearError.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_py(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetFK.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetFK.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/jaka_msgs
 )
 _generate_srv_py(jaka_msgs
-  "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIK.srv"
+  "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIK.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/jaka_msgs
@@ -697,31 +697,31 @@ add_custom_target(jaka_msgs_generate_messages_py
 add_dependencies(jaka_msgs_generate_messages jaka_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/msg/RobotMsg.msg" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_py _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/Move.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/Move.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_py _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMoveEnable.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_py _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ServoMove.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ServoMove.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_py _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetTcpFrame.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_py _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetUserFrame.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_py _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetPayload.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetPayload.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_py _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetCollision.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetCollision.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_py _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/SetIO.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/SetIO.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_py _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIO.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIO.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_py _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/ClearError.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/ClearError.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_py _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetFK.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetFK.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_py _jaka_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/srv/GetIK.srv" NAME_WE)
+get_filename_component(_filename "/home/a/jaka_zu5/src/jaka_ros/jaka_msgs/srv/GetIK.srv" NAME_WE)
 add_dependencies(jaka_msgs_generate_messages_py _jaka_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

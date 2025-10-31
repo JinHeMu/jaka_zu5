@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ras/jhm_ws/devel/lib/jaka_driver/servoj_demo"
-  "/home/ras/jhm_ws/devel/lib/jaka_driver/servoj_demo.pdb"
+  "/home/a/jaka_zu5/devel/lib/jaka_driver/servoj_demo"
+  "/home/a/jaka_zu5/devel/lib/jaka_driver/servoj_demo.pdb"
   "CMakeFiles/servoj_demo.dir/src/servoj_demo.cpp.o"
 )
 

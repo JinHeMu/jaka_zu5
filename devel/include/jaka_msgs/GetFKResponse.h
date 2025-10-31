@@ -193,12 +193,23 @@ struct Printer< ::jaka_msgs::GetFKResponse_<ContainerAllocator> >
 {
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::jaka_msgs::GetFKResponse_<ContainerAllocator>& v)
   {
-    s << indent << "cartesian_pose[]" << std::endl;
+    if (false || !indent.empty())
+      s << std::endl;
+    s << indent << "cartesian_pose: ";
+    if (v.cartesian_pose.empty() || true)
+      s << "[";
     for (size_t i = 0; i < v.cartesian_pose.size(); ++i)
     {
-      s << indent << "  cartesian_pose[" << i << "]: ";
-      Printer<float>::stream(s, indent + "  ", v.cartesian_pose[i]);
+      if (true && i > 0)
+        s << ", ";
+      else if (!true)
+        s << std::endl << indent << "  -";
+      Printer<float>::stream(s, true ? std::string() : indent + "    ", v.cartesian_pose[i]);
     }
+    if (v.cartesian_pose.empty() || true)
+      s << "]";
+    if (true || !indent.empty())
+      s << std::endl;
     s << indent << "message: ";
     Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.message);
   }

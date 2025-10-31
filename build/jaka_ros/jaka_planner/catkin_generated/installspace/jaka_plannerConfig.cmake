@@ -67,14 +67,14 @@ set(jaka_planner_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(jaka_planner_SOURCE_PREFIX /home/ras/jhm_ws/src/jaka_ros/jaka_planner)
-  set(jaka_planner_DEVEL_PREFIX /home/ras/jhm_ws/devel)
+  set(jaka_planner_SOURCE_PREFIX /home/a/jaka_zu5/src/jaka_ros/jaka_planner)
+  set(jaka_planner_DEVEL_PREFIX /home/a/jaka_zu5/devel)
   set(jaka_planner_INSTALL_PREFIX "")
   set(jaka_planner_PREFIX ${jaka_planner_DEVEL_PREFIX})
 else()
   set(jaka_planner_SOURCE_PREFIX "")
   set(jaka_planner_DEVEL_PREFIX "")
-  set(jaka_planner_INSTALL_PREFIX /home/ras/jhm_ws/install)
+  set(jaka_planner_INSTALL_PREFIX /home/a/jaka_zu5/install)
   set(jaka_planner_PREFIX ${jaka_planner_INSTALL_PREFIX})
 endif()
 
@@ -118,7 +118,7 @@ endif()
 
 set(libraries "")
 foreach(library ${libraries})
-  # keep build configuration keywords, target names and absolute libraries as-is
+  # keep build configuration keywords, generator expressions, target names, and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
     list(APPEND jaka_planner_LIBRARIES ${library})
   elseif(${library} MATCHES "^-l")
@@ -146,6 +146,8 @@ foreach(library ${libraries})
       target_link_options("${interface_target_name}" INTERFACE "${library}")
     endif()
     list(APPEND jaka_planner_LIBRARIES "${interface_target_name}")
+  elseif(${library} MATCHES "^\\$<")
+    list(APPEND jaka_planner_LIBRARIES ${library})
   elseif(TARGET ${library})
     list(APPEND jaka_planner_LIBRARIES ${library})
   elseif(IS_ABSOLUTE ${library})
@@ -154,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ras/jhm_ws/install/lib;/home/ras/calibration_ws/devel/lib;/home/ras/caoli_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/a/jaka_zu5/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

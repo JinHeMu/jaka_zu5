@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ras/jhm_ws/devel/lib/jaka_planner/moveit_server"
-  "/home/ras/jhm_ws/devel/lib/jaka_planner/moveit_server.pdb"
+  "/home/a/jaka_zu5/devel/lib/jaka_planner/moveit_server"
+  "/home/a/jaka_zu5/devel/lib/jaka_planner/moveit_server.pdb"
   "CMakeFiles/moveit_server.dir/src/moveit_server.cpp.o"
 )
 
