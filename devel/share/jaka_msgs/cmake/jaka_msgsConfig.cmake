@@ -67,7 +67,7 @@ set(jaka_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(jaka_msgs_SOURCE_PREFIX /home/ras/jhm_ws/src/jaka_msgs)
+  set(jaka_msgs_SOURCE_PREFIX /home/ras/jhm_ws/src/jaka_ros/jaka_msgs)
   set(jaka_msgs_DEVEL_PREFIX /home/ras/jhm_ws/devel)
   set(jaka_msgs_INSTALL_PREFIX "")
   set(jaka_msgs_PREFIX ${jaka_msgs_DEVEL_PREFIX})
@@ -110,7 +110,7 @@ if(NOT "/home/ras/jhm_ws/devel/include " STREQUAL " ")
         message(FATAL_ERROR "Project 'jaka_msgs' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'jaka_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/ras/jhm_ws/src/jaka_msgs/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'jaka_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/ras/jhm_ws/src/jaka_ros/jaka_msgs/${idir}'.  ${_report}")
     endif()
     _list_append_unique(jaka_msgs_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ras/jhm_ws/devel/lib;/home/ras/jhm_ws/devel/lib;/home/ras/calibration_ws/devel/lib;/home/ras/caoli_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/ras/jhm_ws/devel/lib;/home/ras/calibration_ws/devel/lib;/home/ras/caoli_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

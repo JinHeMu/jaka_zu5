@@ -1,8 +1,0 @@
-prefix=/home/ras/jhm_ws/install
-
-Name: aluminium
-Description: Description of aluminium
-Version: 1.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
